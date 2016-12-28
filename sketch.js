@@ -24,11 +24,8 @@ function draw() {
     
     // BACKGROUND
     background('#41934b');
-        push();
-    if(volume>=0.01){
     image(bg,0,0);
-    }
-    pop();
+    
     push();  //Start with transformations
     translate(width/2,366);
     
